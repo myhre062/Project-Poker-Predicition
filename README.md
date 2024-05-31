@@ -22,11 +22,10 @@ The structure of the dataset required machine learning models to consider 10 fea
 
 We opted to test a number of different models and compare results, including the following:
 
-- Linear Regression
+- Support Vector Machines
 - Logisitic Regression
 - Decision Tree
 - KNN
 - Random Forest
 - Deep Learning/Neural Network
 
-It should be noted that due to the presence of multiple classes, and the inability of some models to properly account for this situation, we expected some models to not work properly before making any attempts.
