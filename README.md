@@ -1,10 +1,10 @@
 # Project4-Poker-Predicition
 
 ## Collaborators
-Devan Cherne
-Austin DeVore
-Dan Kramer
-Ezrelle Myhre-Hager
+[Austin DeVore](https://github.com/adevore33) <br>
+[Dan Kramer](https://github.com/d6kramer) <br>
+[Devan Cherne](https://github.com/IAmTheGam3) <br>
+[Ezrelle Myhre-Hager](https://github.com/myhre062)
 
 ## Objective
 
