@@ -22,11 +22,38 @@ The structure of the dataset required machine learning models to consider 10 fea
 
 We opted to test a number of different models and compare results, including the following:
 
-- Support Vector Classification
-- Logisitic Regression
+- Support Vector Classifier ('ovr' multi-class strategy)
+- Logistic Regression ('lbfgs' multi-class solver)
 - Decision Tree
-- KNN
+- KNN (ravel target data to represent correct number of targets)
 - Random Forest
-- Deep Learning/Neural Network
+- Deep Learning/Neural Network (10 unit output layer, softmax activation)
 
 One thing that needed to be accounted for in all of the models was the multi-class nature of the problem. Since the model would need to predict one of ten possible "hand" outcomes, it was important to adjust the data so that the models would properly train, and predict on one of ten possible "hand" outcomes, rather than inadvertently asking the models to predict from a binary choice. We have included some of the multi-class adjustments above for reference.
+
+## Results
+
+The headline performance metric to compare all of the models was overall accuracy. Throughout the models, we used different techniques to measure performance, including classification reports, confusion matrices, tracking loss, and tuning models to determine the best model structures. Since these different techniques were not universally applied, we revert to accuracy as the main comparison point. The model's performance are as follows, from best to worst:
+
+- Deep Learning/Neural Network - 99.81% Accuracy
+- Random Forest - 76.06% Accuracy
+- Decision Tree - 63.21% Accuracy
+- KNN - 57% Accuracy
+- Logistic Regression - 50.12% Accuracy
+- Support Vector Classifier - 49.96% Accuracy
+
+## The Models
+
+Below are brief remarks on how each model was compiled and utilized:
+
+# Support Vector Classifier
+
+# Logistic Regression
+
+# Decision Tree
+
+# KNN
+
+# Random Forest
+
+# Deep Learning
