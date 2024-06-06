@@ -22,10 +22,11 @@ The structure of the dataset required machine learning models to consider 10 fea
 
 We opted to test a number of different models and compare results, including the following:
 
-- Support Vector Machines
+- Support Vector Classification
 - Logisitic Regression
 - Decision Tree
 - KNN
 - Random Forest
 - Deep Learning/Neural Network
 
+One thing that needed to be accounted for in all of the models was the multi-class nature of the problem. Since the model would need to predict one of ten possible "hand" outcomes, it was important to adjust the data so that the models would properly train, and predict on one of ten possible "hand" outcomes, rather than inadvertently asking the models to predict from a binary choice. We have included some of the multi-class adjustments above for reference.
