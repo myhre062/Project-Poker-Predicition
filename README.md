@@ -14,6 +14,8 @@ The purpose of this project was to test a series of machine learning models to d
 
 The data was provided by the University of California Irvine Repository, and contains over one million combinations of cards drawn, along with the resulting poker hand.
 
+This dataset can be found here: https://archive.ics.uci.edu/static/public/158/data.csv
+
 Each playing card was separated into two features (rank and suit) that was represented numerically, resulting in 10 total features to consider. Finally, each hand of cards was assigned a "class" which acted as the target datapoint, since it defined which best hand could be played from the cards given. The classes were also given a numerical representation, from 0 (no playable hand) to 9 (royal flush, the best possible hand).
 
 The structure of the dataset required machine learning models to consider 10 features, while also accounting for 10 possible outcomes.
@@ -42,18 +44,18 @@ The headline performance metric to compare all of the models was overall accurac
 - Logistic Regression - 50.12% Accuracy
 - Support Vector Classifier - 49.96% Accuracy
 
-## The Models
+# The Models
 
 Below are brief remarks on how each model was compiled and utilized:
 
-# Support Vector Classifier
+## Support Vector Classifier
 
-# Logistic Regression
+## Logistic Regression
 
-# Decision Tree
+## Decision Tree
 
-# KNN
+## KNN
 
-# Random Forest
+## Random Forest
 
-# Deep Learning
+## Deep Learning
