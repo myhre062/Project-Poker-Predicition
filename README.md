@@ -56,7 +56,10 @@ Below are brief remarks on how each model was compiled and utilized:
 I created the Logistic Regression Model using 30000 iterations.  I just did a random testing of iterations to see what number would end up working and 30000 was what had worked.  When I trained the data, I also had to ravel function the y data in order to capture all possibilities.  The accuracy was pretty much as expected in not being too good with a score of .50117.
 
 ## Decision Tree
-I started with the decision tree model splitting the data into training and testing sets.  Then I created and fit the scaler.  Followed by creating the decision tree classifier to make our predictions.  Finally, I made a confusion matrix to show the results.  The accuracy score was a .63 which isn't too bad but still not up to our .75 we are looking.
+I started with the decision tree model splitting the data into training and testing sets.  Then I created and fit the scaler.  Followed by creating the decision tree classifier to make our predictions.  Finally, I made a confusion matrix to show the results.  The accuracy score was a .63 which isn't too bad but still not up to our .75 we are looking.  Below is the confusion matrix along with the accuracy score of the model.
+
+![image](https://github.com/myhre062/Project4-Poker-Prediction/assets/153146489/16a0217c-64f9-4d1a-b99c-2dff2a9f8b21)
+
 
 ## KNN
 Upon loading the data in I reshaped the data with "ravel". Then I split the dataset and trained it. Then I fit a standard scalar and trained the data. I did a k test to find out which values of k would be most effective. Upon discovering that those values were 6 and 16 I instantiated my model with them. After that, I created my predictions and confusion matrices. I then printed my classification report and concluded that k=16 had the best accuracy at .65.
