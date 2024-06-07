@@ -57,6 +57,7 @@ I created the Logistic Regression Model using 30000 iterations.  I just did a ra
 I started with the decision tree model splitting the data into training and testing sets.  Then I created and fit the scaler.  Followed by creating the decision tree classifier to make our predictions.  Finally, I made a confusion matrix to show the results.  The accuracy score was a .63 which isn't too bad but still not up to our .75 we are looking.
 
 ## KNN
+Upon loading the data in I reshaped the data with "ravel". Then I split the dataset and trained it. Then I fit a standard scalar and trained the data. I did a k test to find out which values of k would be most effective. Upon discovering that those values were 6 and 16 I instantiated my model with them. After that, I created my predictions and confusion matrices. I then printed my classification report and concluded that k=16 had the best accuracy at .65.
 
 ## Random Forest
 
