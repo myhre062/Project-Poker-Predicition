@@ -1,5 +1,5 @@
 ﻿Model Type,Best Accuracy Performance,Accuracy (%),Optimizations,Model Notes
-Support Vector Classifier,0.4996,49.96%,None,"80%/20% train/test split
+Linear SVC,0.4996,49.96%,None,"80%/20% train/test split
 multi-class solver 'ovr' used
 model only predicted class 0 (No playable hand) for all testing data"
 Logistic Regression,0.5012,50.12%,"Max iteration: 30,000","High max iterations to achieve convergence
@@ -7,7 +7,7 @@ Logistic Regression,0.5012,50.12%,"Max iteration: 30,000","High max iterations t
 Decision Tree,0.6321,63.21%,None,"Reasonable precision/recall scores for classes 0, 1 (60% +)
 Steep drop off in performance for remaining classes
 (Scores of 35% or less for precision and recall)"
-KNN,0.5700,57.00%,Best k: 16,"K curve optimal k values: 6, 16
+KNN,0.57,57.00%,Best k: 16,"K curve optimal k values: 6, 16
 Suprising performance on class 5 (Flush: 99% recall! Only 29% precision)
 Generally poor performance except for class 0 precision/recall 
 (moderate performance of 75%/60%)"
