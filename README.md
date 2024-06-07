@@ -55,6 +55,9 @@ Below are brief remarks on how each model was compiled and utilized:
 ## Logistic Regression
 I created the Logistic Regression Model using 30000 iterations.  I just did a random testing of iterations to see what number would end up working and 30000 was what had worked.  When I trained the data, I also had to ravel function the y data in order to capture all possibilities.  The accuracy was pretty much as expected in not being too good with a score of .50117.
 
+![image](https://github.com/myhre062/Project4-Poker-Prediction/assets/153146489/d8ac12eb-1e6f-42b2-8d72-2fd386db530b)
+
+
 ## Decision Tree
 I started with the decision tree model splitting the data into training and testing sets.  Then I created and fit the scaler.  Followed by creating the decision tree classifier to make our predictions.  Finally, I made a confusion matrix to show the results.  The accuracy score was a .63 which isn't too bad but still not up to our .75 we are looking.  Below is the confusion matrix along with the accuracy score of the model.
 
