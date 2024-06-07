@@ -77,6 +77,8 @@ I then printed my classification report and concluded that k=16 had the best acc
 
 ## Random Forest
 
+The dataset was divided into training and testing sets to evaluate the model’s performance. A Random Forest classifier was created with 500 estimators and a random state of 78 for reproducibility. The model's performance was evaluated using a confusion matrix and accuracy score. The Random Forest model achieved an accuracy of 76.06%, making it the second-best performing model in our comparisons. Feature importance analysis revealed that the ranks of the cards (C1, C2, C3, C4, C5) were the most significant features, which aligns with the rules of poker where the rank combinations define the type of hand.
+
 ## Deep Learning
 In order to expedite and automate the process of finding an optimal model, we utilized the Keras Tuner utility to build and test a variety of models, and give us the top three options for evaluation. The size of the dataset contributed to relatively long testing times, so we ran comparatively short epochs, and gave the tuner utility a moderate step count between intervals when selecting the number of neurons per layer. 
 
