@@ -50,7 +50,7 @@ The headline performance metric to compare all of the models was overall accurac
 
 Below are brief remarks on how each model was compiled and utilized:
 
-## Linear Support Vector Machine
+## Linear SVC
 
 ## Logistic Regression
 I created the Logistic Regression Model using 30000 iterations.  I just did a random testing of iterations to see what number would end up working and 30000 was what had worked.  When I trained the data, I also had to ravel function the y data in order to capture all possibilities.  The accuracy was pretty much as expected in not being too good with a score of .50117.
