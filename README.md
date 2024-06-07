@@ -65,7 +65,15 @@ I started with the decision tree model splitting the data into training and test
 
 
 ## KNN
-Upon loading the data in I reshaped the data with "ravel". Then I split the dataset and trained it. Then I fit a standard scalar and trained the data. I did a k test to find out which values of k would be most effective. Upon discovering that those values were 6 and 16 I instantiated my model with them. After that, I created my predictions and confusion matrices. I then printed my classification report and concluded that k=16 had the best accuracy at .65.
+Upon loading the data in I reshaped the data with "ravel". Then I split the dataset and trained it. Then I fit a standard scalar and trained the data. I did a k test to find out which values of k would be most effective. 
+
+![image](https://github.com/myhre062/Project4-Poker-Prediction/blob/main/Screenshots/knn_elbow_curve.png)
+
+Upon discovering that those values were 6 and 16 I instantiated my model with them. After that, I created my predictions and confusion matrices. 
+
+![image](https://github.com/myhre062/Project4-Poker-Prediction/blob/main/Screenshots/KNN_predictions.png)
+
+I then printed my classification report and concluded that k=16 had the best accuracy at .65.
 
 ## Random Forest
 
