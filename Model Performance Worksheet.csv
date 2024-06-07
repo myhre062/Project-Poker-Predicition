@@ -1,0 +1,25 @@
+﻿Model Type,Best Accuracy Performance,Accuracy (%),Optimizations,Model Notes
+Support Vector Classifier,0.4996,49.96%,None,"80%/20% train/test split
+multi-class solver 'ovr' used
+model only predicted class 0 (No playable hand) for all testing data"
+Logistic Regression,0.5012,50.12%,"Max iteration: 30,000","High max iterations to achieve convergence
+"
+Decision Tree,0.6321,63.21%,None,"Reasonable precision/recall scores for classes 0, 1 (60% +)
+Steep drop off in performance for remaining classes
+(Scores of 35% or less for precision and recall)"
+KNN,0.5700,57.00%,Best k: 16,"K curve optimal k values: 6, 16
+Suprising performance on class 5 (Flush: 99% recall! Only 29% precision)
+Generally poor performance except for class 0 precision/recall 
+(moderate performance of 75%/60%)"
+Random Forest,0.7606,76.06%,None,"Estimators - 500
+Successfully found at least some of classes 0 through 6
+successful classes had at 350+ instances in the testing data
+65%+ precision per successful class (exception: class 4, 42%)
+Poor recall except for class 0, 1"
+Deep Learning Module,0.9981,99.81%,Top 3 models via Keras Tuner,"Superior performance in comparison to tested models
+Activation Function: Relu
+Initial Layer: 21 neurons
+1st Hidden Layer: 41 neurons
+2nd Hidden Layer: 21 neurons
+Output Layer: 10 neurons, SoftMax Activation Function
+Testing Loss: 0.0132"
