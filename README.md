@@ -18,6 +18,8 @@ This dataset can be found here: https://archive.ics.uci.edu/static/public/158/da
 
 Each playing card was separated into two features (rank and suit) that was represented numerically, resulting in 10 total features to consider. Finally, each hand of cards was assigned a "class" which acted as the target datapoint, since it defined which "best hand" could be played from the cards given. The classes were also given a numerical representation, from 0 (no playable hand) to 9 (royal flush, the best possible hand).
 
+![poker_hand_targets](https://github.com/myhre062/Project4-Poker-Prediction/assets/147351952/d4192d72-4c79-4fe4-b479-4d6ba6a13772)
+
 The structure of the dataset required machine learning models to consider 10 features, while also accounting for 10 possible outcomes.
 
 ## Methodology
