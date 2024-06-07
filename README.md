@@ -62,4 +62,13 @@ Upon loading the data in I reshaped the data with "ravel". Then I split the data
 ## Random Forest
 
 ## Deep Learning
-In order to expedite and automate the process of finding an optimal model, we utilized the Keras Tuner utility to build and test a variety of models, and give us the top three options for evaluation. The size of the dataset contributed to relatively long testing times, so we ran comparatively short epochs, and gave the tuner utility a moderate step count between intervals when selecting the number of neurons per layer. We also changed some key characteristics of the model tuner to ensure the models built were capable of multi-classification, rather than a binary decision model. We found a balanced set of instructions for the tuner that yielded a model that gave an impressive result of 98.81% Accuracy with a loss value of 0.0132 during evaluation that only required a little over 2 hours of search time.
+In order to expedite and automate the process of finding an optimal model, we utilized the Keras Tuner utility to build and test a variety of models, and give us the top three options for evaluation. The size of the dataset contributed to relatively long testing times, so we ran comparatively short epochs, and gave the tuner utility a moderate step count between intervals when selecting the number of neurons per layer. 
+
+![DNN_kerastuner](https://github.com/myhre062/Project4-Poker-Prediction/assets/147351952/1cf181f2-4b07-492a-b7ad-4e44d7312a04)
+
+
+We also changed some key characteristics of the model tuner to ensure the models built were capable of multi-classification, rather than a binary decision model. We found a balanced set of instructions for the tuner that yielded a model that gave an impressive result of 98.81% Accuracy with a loss value of 0.0132 during evaluation that only required a little over 2 hours of search time.
+
+![DNN_top_models](https://github.com/myhre062/Project4-Poker-Prediction/assets/147351952/11514350-2c82-44e1-a6a0-6c16c8740b27)
+
+![DNN_top3_eval](https://github.com/myhre062/Project4-Poker-Prediction/assets/147351952/4ed098ae-8ff9-427b-b8cf-d584f295b7b4)
