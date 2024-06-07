@@ -52,7 +52,9 @@ Below are brief remarks on how each model was compiled and utilized:
 
 ## Linear SVC
 
+The Linear SVC is suitable for high-dimensional datasets and can handle multi-class classification, which is crucial for our dataset where each hand can be one of ten different types. The model achieved an accuracy of 49.96%. This relatively low accuracy is because of the imbalanced nature of the dataset, where the 'No Hand' class is significantly more occurences than other classes. The confusion matrix for the Linear SVC model reveals that the model predicts the 'No Hand' class everytime, which reveals a bias towards this majority class. This is expected given the statistical distribution of the classes in the dataset.
 
+![Linear_SVM_Confusion_Matrix](https://github.com/myhre062/Project4-Poker-Prediction/blob/main/Screenshots/Linear_SVM_Confusion_Matrix.png)
 
 ## Logistic Regression
 I created the Logistic Regression Model using 30000 iterations.  I just did a random testing of iterations to see what number would end up working and 30000 was what had worked.  When I trained the data, I also had to ravel function the y data in order to capture all possibilities.  The accuracy was pretty much as expected in not being too good with a score of .50117.
