@@ -83,8 +83,7 @@ I then printed my classification report and concluded that k=16 had the best acc
 
 The dataset was divided into training and testing sets to evaluate the model’s performance. A Random Forest classifier was created with 500 estimators and a random state of 78 for reproducibility. The model's performance was evaluated using a confusion matrix and accuracy score. The Random Forest model achieved an accuracy of 76.06%, making it the second-best performing model in our comparisons. Feature importance analysis revealed that the ranks of the cards (C1, C2, C3, C4, C5) were the most significant features, which aligns with the rules of poker where the rank combinations define the type of hand.
 
-![Random_Forest_Feature_Importance.png
-](https://github.com/myhre062/Project4-Poker-Prediction/blob/main/Screenshots/Random_Forest_Feature_Importance.png)
+![Random_Forest_Feature_Importance.png](https://github.com/myhre062/Project4-Poker-Prediction/blob/main/Screenshots/Random_Forest_Feature_Importance.png)
 
 ## Deep Learning
 In order to expedite and automate the process of finding an optimal model, we utilized the Keras Tuner utility to build and test a variety of models, and give us the top three options for evaluation. The size of the dataset contributed to relatively long testing times, so we ran comparatively short epochs, and gave the tuner utility a moderate step count between intervals when selecting the number of neurons per layer. 
@@ -97,3 +96,7 @@ We also changed some key characteristics of the model tuner to ensure the models
 ![DNN_top_models](https://github.com/myhre062/Project4-Poker-Prediction/assets/147351952/11514350-2c82-44e1-a6a0-6c16c8740b27)
 
 ![DNN_top3_eval](https://github.com/myhre062/Project4-Poker-Prediction/assets/147351952/4ed098ae-8ff9-427b-b8cf-d584f295b7b4)
+
+## References
+
+- Poker Hand Dateset: https://archive.ics.uci.edu/dataset/158/poker+hand
